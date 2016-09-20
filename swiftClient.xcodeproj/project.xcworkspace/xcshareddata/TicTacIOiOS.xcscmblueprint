@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D9E1DCB9D67A66BF9037B8BEE764D8E4A3609BDF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "01C4019DAB2F13C7FB458F088D0A991884C46F1A" : 0,
+    "D9E1DCB9D67A66BF9037B8BEE764D8E4A3609BDF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "469C9D5A-212B-439B-B930-A5ABB47F1955",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "01C4019DAB2F13C7FB458F088D0A991884C46F1A" : "TicTacIOiOS\/TicTacIOiOS\/SocketIOClientSwift",
+    "D9E1DCB9D67A66BF9037B8BEE764D8E4A3609BDF" : "socket.io-client-swift-example\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TicTacIOiOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TicTacIOiOS.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/socketio\/socket.io-client-swift",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "01C4019DAB2F13C7FB458F088D0A991884C46F1A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nuclearace\/socket.io-client-swift-example.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D9E1DCB9D67A66BF9037B8BEE764D8E4A3609BDF"
+    }
+  ]
+}
