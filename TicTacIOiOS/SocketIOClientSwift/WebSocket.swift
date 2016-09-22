@@ -537,7 +537,19 @@ public class WebSocket : NSObject, StreamDelegate {
     private func validateResponse(_ buffer: UnsafePointer<UInt8>, bufferLen: Int) -> Int {
         let response = CFHTTPMessageCreateEmpty(kCFAllocatorDefault, false).takeRetainedValue()
         CFHTTPMessageAppendBytes(response, buffer, bufferLen)
+        
         let code = CFHTTPMessageGetResponseStatusCode(response)
+        print(code)
+        print("-response-")
+        
+        let headers = CFHTTPMessageCopyAllHeaderFields(response)
+        
+        print(headers)
+        
+        
+        print(CFHTTPMessageCopyBody(response))
+        
+       
         if code != httpSwitchProtocolCode {
             return code
         }
